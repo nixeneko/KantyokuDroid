@@ -1,0 +1,5411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+漢直定義用xml。
+qwert yuiop
+asdfg hjkl;
+zxcvb nm,./
+[space]
+の31キー。
+<table name="テーブル名">
+	キー配列…<key/>または<keys/>合せて31個
+	<key/>に文字を定義。
+		str…出力する文字
+		keytop…キーに表示される文字列を定義。無い場合はstrと同じものを使う
+		defined…falseにすると未定義キーとする。デフォルトはtrue(<key/>としただけのキーはfalseにした方がいいかも?)
+		modifier…trueにするとモディファイアキーとする。デフォルトはfalse(typeにまとめちゃっていいかも)
+		type…spaceにするとスペースキー。
+	<keys></keys>内に<key/>を31個定義できる。
+		keytop…キーに表示される文字列
+</table>
+-->
+<resources>
+
+    <table name="TUT" >
+        <keys>
+            <key str="並" />
+            <key str="伝" />
+            <key str="青" />
+            <key str="整" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="智" />
+                <key str="忘" />
+                <key str="魅" />
+                <key str="嫁" />
+                <key str="嘆" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="範" />
+                <key str="救" />
+                <key str="継" />
+                <key str="詰" />
+                <key str="寸" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="奔" />
+                <key str="娠" />
+                <key str="胆" />
+                <key str="飽" />
+                <key str="筑" />
+                <key />
+            </keys>
+            <key str="食" />
+            <key str="ゆ" />
+            <key str="相" />
+            <key str="解" />
+            <key str="配" />
+            <key str="念" />
+            <key str="税" />
+            <key str="黒" />
+            <key str="警" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="哲" />
+                <key str="錦" />
+                <key str="蒲" />
+                <key str="誘" />
+                <key str="匠" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="尚" />
+                <key str="詩" />
+                <key str="快" />
+                <key str="骨" />
+                <key str="靴" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="喰" />
+                <key str="符" />
+                <key str="怖" />
+                <key str="餌" />
+                <key str="隼" />
+                <key />
+            </keys>
+
+            <key str="主" />
+            <key str="よ" />
+            <key str="や" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="ゅ" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="ょ" />
+                <key str="ゃ" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="空" />
+            <key str="返" />
+            <key str="祭" />
+            <key str="曇" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="桟" />
+                <key str="訊" />
+                <key str="嫌" />
+                <key str="輔" />
+                <key str="苫" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="繕" />
+                <key str="雰" />
+                <key str="胞" />
+                <key str="杏" />
+                <key str="呪" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="肋" />
+                <key str="燕" />
+                <key str="灸" />
+                <key str="麹" />
+                <key str="倦" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="璽" />
+                <key str="葵" />
+                <key str="悼" />
+                <key str="睦" />
+                <key str="樺" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="葦" />
+                <key str="芋" />
+                <key str="鍋" />
+                <key str="胤" />
+                <key str="咳" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="灼" />
+                <key str="謬" />
+                <key str="夷" />
+                <key str="綻" />
+                <key str="弄" />
+                <key />
+            </keys>
+
+            <key str="必" />
+            <key str="講" />
+            <key str="使" />
+            <key str="左" />
+            <key str="展" />
+            <key str="“" />
+        </keys>
+        <keys>
+            <key str="態" />
+            <key str="健" />
+            <key str="活" />
+            <key str="少" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="誠" />
+                <key str="覚" />
+                <key str="述" />
+                <key str="損" />
+                <key str="釈" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="紹" />
+                <key str="臨" />
+                <key str="砂" />
+                <key str="双" />
+                <key str="軒" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="痴" />
+                <key str="揃" />
+                <key str="貧" />
+                <key str="楼" />
+                <key str="韻" />
+                <key />
+            </keys>
+
+            <key str="持" />
+            <key str="む" />
+            <key str="み" />
+            <key str="気" />
+            <key str="予" />
+            <key str="右" />
+            <key str="質" />
+            <key str="資" />
+            <key str="託" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="弾" />
+                <key str="罪" />
+                <key str="候" />
+                <key str="剤" />
+                <key str="淵" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="憲" />
+                <key str="沖" />
+                <key str="麻" />
+                <key str="荘" />
+                <key str="奇" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="窒" />
+                <key str="廊" />
+                <key str="埋" />
+                <key str="穏" />
+                <key str="傘" />
+                <key />
+            </keys>
+
+            <key str="め" />
+            <key str="も" />
+            <key str="ま" />
+            <key str="見" />
+            <key str="線" />
+            <key str="競" />
+            <key str="訪" />
+            <key str="注" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="頃" />
+                <key str="漂" />
+                <key str="班" />
+                <key str="匿" />
+                <key str="殆" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="似" />
+                <key str="辻" />
+                <key str="覧" />
+                <key str="汁" />
+                <key str="幽" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="碧" />
+                <key str="搾" />
+                <key str="濡" />
+                <key str="昏" />
+                <key str="灘" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="尼" />
+                <key str="忌" />
+                <key str="滴" />
+                <key str="恰" />
+                <key str="甥" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="某" />
+                <key str="庄" />
+                <key str="諮" />
+                <key str="胡" />
+                <key str="嵩" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="叩" />
+                <key str="賑" />
+                <key str="淫" />
+                <key str="碓" />
+                <key str="捺" />
+                <key />
+            </keys>
+
+            <key str="官" />
+            <key str="府" />
+            <key str="真" />
+            <key str="算" />
+            <key str="得" />
+            <key str="〒" />
+        </keys>
+        <keys>
+            <key str="両" />
+            <key str="待" />
+            <key str="結" />
+            <key str="信" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="訳" />
+                <key str="秘" />
+                <key str="令" />
+                <key str="隣" />
+                <key str="厳" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="走" />
+                <key str="妻" />
+                <key str="革" />
+                <key str="属" />
+                <key str="脳" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="威" />
+                <key str="患" />
+                <key str="略" />
+                <key str="是" />
+                <key str="削" />
+                <key />
+            </keys>
+
+            <key str="子" />
+            <key str="く" />
+            <key str="き" />
+            <key str="者" />
+            <key str="議" />
+            <key str="残" />
+            <key str="団" />
+            <key str="数" />
+            <key str="公" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="炭" />
+                <key str="績" />
+                <key str="盛" />
+                <key str="弁" />
+                <key str="宗" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="肉" />
+                <key str="丘" />
+                <key str="杉" />
+                <key str="帯" />
+                <key str="紅" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="侵" />
+                <key str="黄" />
+                <key str="綱" />
+                <key str="胃" />
+                <key str="唄" />
+                <key />
+            </keys>
+
+            <key str="け" />
+            <key str="こ" />
+            <key str="か" />
+
+            <keys>
+                <key />
+                <key />
+
+                <keys>
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key str="ヶ" />
+                    <key />
+                    <key str="ヵ" />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                </keys>
+
+                <key />
+                <key />
+                <key />
+                <key str="ぐ" />
+                <key str="ぎ" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="げ" />
+                <key str="ご" />
+                <key str="が" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="合" />
+            <key str="母" />
+            <key str="諸" />
+            <key str="免" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="篇" />
+                <key str="畜" />
+                <key str="墨" />
+                <key str="潔" />
+                <key str="暫" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="泰" />
+                <key str="聴" />
+                <key str="乃" />
+                <key str="戒" />
+                <key str="羊" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="銑" />
+                <key str="菩" />
+                <key str="魂" />
+                <key str="惟" />
+                <key str="鞍" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="拝" />
+                <key str="滞" />
+                <key str="菌" />
+                <key str="賄" />
+                <key str="漬" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="冊" />
+                <key str="晩" />
+                <key str="射" />
+                <key str="髪" />
+                <key str="揺" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="頬" />
+                <key str="丙" />
+                <key str="廻" />
+                <key str="圭" />
+                <key str="宋" />
+                <key />
+            </keys>
+
+            <key str="治" />
+            <key str="談" />
+            <key str="開" />
+            <key str="指" />
+            <key str="死" />
+            <key str="ー" />
+        </keys>
+        <keys>
+            <key str="乗" />
+            <key str="白" />
+            <key str="優" />
+            <key str="報" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="源" />
+                <key str="雪" />
+                <key str="測" />
+                <key str="慶" />
+                <key str="惑" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="香" />
+                <key str="処" />
+                <key str="請" />
+                <key str="抗" />
+                <key str="跡" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="耐" />
+                <key str="句" />
+                <key str="克" />
+                <key str="択" />
+                <key str="孔" />
+                <key />
+            </keys>
+
+            <key str="出" />
+            <key str="う" />
+            <key str="い" />
+            <key str="手" />
+            <key str="特" />
+            <key str="赤" />
+            <key str="参" />
+            <key str="品" />
+            <key str="細" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="稲" />
+                <key str="昼" />
+                <key str="激" />
+                <key str="歯" />
+                <key str="鬼" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="衣" />
+                <key str="散" />
+                <key str="捕" />
+                <key str="捜" />
+                <key str="窓" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="墓" />
+                <key str="脚" />
+                <key str="贈" />
+                <key str="聖" />
+                <key str="罰" />
+                <key />
+            </keys>
+
+            <key str="え" />
+            <key str="お" />
+            <key str="あ" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+
+                <keys>
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key str="ヴ" />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                </keys>
+
+                <key />
+                <key />
+                <key str="ぅ" />
+                <key str="ぃ" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="ぇ" />
+                <key str="ぉ" />
+                <key str="ぁ" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="家" />
+            <key str="熱" />
+            <key str="修" />
+            <key str="茶" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="猿" />
+                <key str="没" />
+                <key str="披" />
+                <key str="肪" />
+                <key str="壌" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="搬" />
+                <key str="祉" />
+                <key str="瞬" />
+                <key str="宵" />
+                <key str="棺" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="狐" />
+                <key str="濫" />
+                <key str="穣" />
+                <key str="痕" />
+                <key str="凪" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="弓" />
+                <key str="烈" />
+                <key str="伏" />
+                <key str="鯨" />
+                <key str="凄" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="紋" />
+                <key str="潜" />
+                <key str="臓" />
+                <key str="駆" />
+                <key str="憾" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="暢" />
+                <key str="匡" />
+                <key str="舌" />
+                <key str="亮" />
+                <key str="諦" />
+                <key />
+            </keys>
+
+            <key str="先" />
+            <key str="協" />
+            <key str="決" />
+            <key str="向" />
+            <key str="輸" />
+            <key str="【" />
+        </keys>
+        <keys>
+            <key str="専" />
+            <key str="港" />
+            <key str="最" />
+            <key str="太" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="恐" />
+                <key str="紳" />
+                <key str="朗" />
+                <key str="既" />
+                <key str="憩" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="層" />
+                <key str="留" />
+                <key str="亜" />
+                <key str="伴" />
+                <key str="狂" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="侍" />
+                <key str="笛" />
+                <key str="謹" />
+                <key str="凶" />
+                <key str="巌" />
+                <key />
+            </keys>
+
+            <key str="行" />
+            <key str="ふ" />
+            <key str="ひ" />
+            <key str="的" />
+            <key str="法" />
+            <key str="形" />
+            <key str="基" />
+            <key str="座" />
+            <key str="費" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="為" />
+                <key str="熊" />
+                <key str="批" />
+                <key str="祥" />
+                <key str="慣" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="繁" />
+                <key str="願" />
+                <key str="貿" />
+                <key str="逆" />
+                <key str="掛" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="粗" />
+                <key str="慰" />
+                <key str="獲" />
+                <key str="僕" />
+                <key str="臥" />
+                <key />
+            </keys>
+
+            <key str="へ" />
+            <key str="ほ" />
+            <key str="は" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+
+                <keys>
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key str="ぷ" />
+                    <key str="ぴ" />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key str="ぺ" />
+                    <key str="ぽ" />
+                    <key str="ぱ" />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                </keys>
+
+                <key />
+                <key str="ぶ" />
+                <key str="び" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="べ" />
+                <key str="ぼ" />
+                <key str="ば" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="集" />
+            <key str="退" />
+            <key str="版" />
+            <key str="昨" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="析" />
+                <key str="裂" />
+                <key str="舶" />
+                <key str="括" />
+                <key str="疫" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="迷" />
+                <key str="琴" />
+                <key str="縫" />
+                <key str="雷" />
+                <key str="轄" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="脹" />
+                <key str="喬" />
+                <key str="姻" />
+                <key str="諒" />
+                <key str="舘" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="匂" />
+                <key str="賓" />
+                <key str="筈" />
+                <key str="寡" />
+                <key str="癌" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="吐" />
+                <key str="乏" />
+                <key str="准" />
+                <key str="姓" />
+                <key str="只" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="冥" />
+                <key str="煎" />
+                <key str="柏" />
+                <key str="牌" />
+                <key str="贋" />
+                <key />
+            </keys>
+
+            <key str="初" />
+            <key str="反" />
+            <key str="美" />
+            <key str="放" />
+            <key str="味" />
+            <key str="「" />
+        </keys>
+        <keys>
+            <key str="興" />
+            <key str="水" />
+            <key str="金" />
+            <key str="町" />
+            <key str="第" />
+
+            <keys>
+                <key str="玄" />
+                <key str="氷" />
+                <key str="植" />
+                <key str="枝" />
+                <key str="暗" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="稚" />
+                <key str="陶" />
+                <key str="群" />
+                <key str="否" />
+                <key str="荷" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="橘" />
+                <key str="擬" />
+                <key str="駄" />
+                <key str="鎮" />
+                <key str="膚" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="割" />
+            <key str="民" />
+            <key str="球" />
+            <key str="果" />
+            <key str="遇" />
+            <key str="機" />
+            <key str="学" />
+            <key str="工" />
+            <key str="内" />
+
+            <keys>
+                <key str="函" />
+                <key str="殊" />
+                <key str="弘" />
+                <key str="巣" />
+                <key str="摩" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="淳" />
+                <key str="慮" />
+                <key str="紀" />
+                <key str="輪" />
+                <key str="老" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="迅" />
+                <key str="偉" />
+                <key str="垣" />
+                <key str="遂" />
+                <key str="炉" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="勝" />
+            <key str="歳" />
+            <key str="紙" />
+            <key str="王" />
+            <key str="企" />
+            <key str="伊" />
+            <key str="科" />
+            <key str="央" />
+            <key str="昭" />
+
+            <keys>
+                <key str="歪" />
+                <key str="謁" />
+                <key str="隅" />
+                <key str="扉" />
+                <key str="膳" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="嫡" />
+                <key str="婿" />
+                <key str="巴" />
+                <key str="肺" />
+                <key str="敢" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="鋸" />
+                <key str="峨" />
+                <key str="洲" />
+                <key str="萎" />
+                <key str="鴎" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="股" />
+                <key str="裸" />
+                <key str="棋" />
+                <key str="漢" />
+                <key str="紫" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="緯" />
+                <key str="俗" />
+                <key str="鐘" />
+                <key str="鷹" />
+                <key str="簿" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="芹" />
+                <key str="伶" />
+                <key str="爺" />
+                <key str="矯" />
+                <key str="蔦" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="隊" />
+            <key str="減" />
+            <key str="丁" />
+            <key str="」" />
+        </keys>
+        <keys>
+            <key str="口" />
+            <key str="産" />
+            <key str="地" />
+            <key str="七" />
+            <key str="和" />
+
+            <keys>
+                <key str="鑑" />
+                <key str="茂" />
+                <key str="去" />
+                <key str="益" />
+                <key str="訴" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="賛" />
+                <key str="暴" />
+                <key str="苦" />
+                <key str="察" />
+                <key str="速" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="綜" />
+                <key str="姫" />
+                <key str="煙" />
+                <key str="慎" />
+                <key str="昔" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="及" />
+            <key str="表" />
+            <key str="院" />
+            <key str="等" />
+            <key str="井" />
+            <key str="野" />
+            <key str="本" />
+            <key str="事" />
+            <key str="千" />
+
+            <keys>
+                <key str="孝" />
+                <key str="償" />
+                <key str="延" />
+                <key str="標" />
+                <key str="旧" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="阿" />
+                <key str="乱" />
+                <key str="賀" />
+                <key str="純" />
+                <key str="奈" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="牲" />
+                <key str="拓" />
+                <key str="排" />
+                <key str="潮" />
+                <key str="驚" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="氏" />
+            <key str="度" />
+            <key str="英" />
+            <key str="衛" />
+            <key str="服" />
+            <key str="週" />
+            <key str="屋" />
+            <key str="池" />
+            <key str="宮" />
+
+            <keys>
+                <key str="噂" />
+                <key str="循" />
+                <key str="往" />
+                <key str="騰" />
+                <key str="咲" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="棟" />
+                <key str="汗" />
+                <key str="趣" />
+                <key str="泣" />
+                <key str="兆" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="裟" />
+                <key str="怜" />
+                <key str="虞" />
+                <key str="尭" />
+                <key str="悌" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="薪" />
+                <key str="坑" />
+                <key str="圏" />
+                <key str="幻" />
+                <key str="芽" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="崖" />
+                <key str="妊" />
+                <key str="忙" />
+                <key str="訂" />
+                <key str="欺" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="雫" />
+                <key str="鳳" />
+                <key str="錘" />
+                <key str="藍" />
+                <key str="蘇" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="飛" />
+            <key str="陽" />
+            <key str="善" />
+            <key str="】" />
+        </keys>
+        <keys>
+            <key str="洋" />
+            <key str="務" />
+            <key str="万" />
+            <key str="京" />
+            <key str="区" />
+
+            <keys>
+                <key str="僚" />
+                <key str="粉" />
+                <key str="易" />
+                <key str="鳥" />
+                <key str="枚" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="貨" />
+                <key str="郡" />
+                <key str="模" />
+                <key str="希" />
+                <key str="邸" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="戯" />
+                <key str="腸" />
+                <key str="症" />
+                <key str="拠" />
+                <key str="栗" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="楽" />
+            <key str="夫" />
+            <key str="番" />
+            <key str="首" />
+            <key str="島" />
+            <key str="前" />
+            <key str="大" />
+            <key str="中" />
+            <key str="分" />
+
+            <keys>
+                <key str="陣" />
+                <key str="余" />
+                <key str="彦" />
+                <key str="押" />
+                <key str="核" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="刷" />
+                <key str="房" />
+                <key str="突" />
+                <key str="糖" />
+                <key str="干" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="抑" />
+                <key str="亭" />
+                <key str="逃" />
+                <key str="混" />
+                <key str="雅" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="画" />
+            <key str="校" />
+            <key str="題" />
+            <key str="劇" />
+            <key str="鋼" />
+            <key str="階" />
+            <key str="映" />
+            <key str="制" />
+            <key str="職" />
+
+            <keys>
+                <key str="軸" />
+                <key str="狭" />
+                <key str="銃" />
+                <key str="砲" />
+                <key str="拒" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="輩" />
+                <key str="沈" />
+                <key str="徴" />
+                <key str="逮" />
+                <key str="忍" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="勃" />
+                <key str="茎" />
+                <key str="伺" />
+                <key str="恨" />
+                <key str="醜" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="顕" />
+                <key str="遭" />
+                <key str="衝" />
+                <key str="妹" />
+                <key str="搭" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="幾" />
+                <key str="芦" />
+                <key str="桂" />
+                <key str="弟" />
+                <key str="棄" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="怨" />
+                <key str="磯" />
+                <key str="軌" />
+                <key str="繭" />
+                <key str="呑" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="航" />
+            <key str="払" />
+            <key str="材" />
+            <key str="…" />
+        </keys>
+        <keys>
+            <key str="船" />
+            <key str="駅" />
+            <key str="建" />
+            <key str="理" />
+            <key str="西" />
+
+            <keys>
+                <key str="耳" />
+                <key str="貯" />
+                <key str="章" />
+                <key str="呈" />
+                <key str="巡" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="鋭" />
+                <key str="貴" />
+                <key str="票" />
+                <key str="背" />
+                <key str="刺" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="霞" />
+                <key str="斬" />
+                <key str="鼻" />
+                <key str="滅" />
+                <key str="詞" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="園" />
+            <key str="加" />
+            <key str="常" />
+            <key str="毛" />
+            <key str="士" />
+            <key str="百" />
+            <key str="六" />
+            <key str="九" />
+            <key str="立" />
+
+            <keys>
+                <key str="緩" />
+                <key str="封" />
+                <key str="樹" />
+                <key str="梅" />
+                <key str="了" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="棒" />
+                <key str="塗" />
+                <key str="互" />
+                <key str="竜" />
+                <key str="夢" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="弔" />
+                <key str="涯" />
+                <key str="孫" />
+                <key str="征" />
+                <key str="僧" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="心" />
+            <key str="銀" />
+            <key str="告" />
+            <key str="親" />
+            <key str="停" />
+            <key str="労" />
+            <key str="阪" />
+            <key str="証" />
+            <key str="雄" />
+
+            <keys>
+                <key str="喉" />
+                <key str="嬉" />
+                <key str="泡" />
+                <key str="窟" />
+                <key str="郭" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="惣" />
+                <key str="堕" />
+                <key str="誉" />
+                <key str="貌" />
+                <key str="諾" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="珊" />
+                <key str="詣" />
+                <key str="釘" />
+                <key str="麺" />
+                <key str="箔" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="倣" />
+                <key str="賭" />
+                <key str="岐" />
+                <key str="縁" />
+                <key str="蛇" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="蹴" />
+                <key str="湿" />
+                <key str="磨" />
+                <key str="柔" />
+                <key str="腐" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="肘" />
+                <key str="麓" />
+                <key str="呆" />
+                <key str="笹" />
+                <key str="甫" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="寄" />
+            <key str="顔" />
+            <key str="差" />
+            <key str="・" />
+        </keys>
+        <keys>
+            <key str="久" />
+            <key str="頭" />
+            <key str="鉄" />
+            <key str="営" />
+            <key str="富" />
+
+            <keys>
+                <key str="傍" />
+                <key str="我" />
+                <key str="超" />
+                <key str="曹" />
+                <key str="飼" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="潤" />
+                <key str="幼" />
+                <key str="途" />
+                <key str="沼" />
+                <key str="束" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="挿" />
+                <key str="慨" />
+                <key str="但" />
+                <key str="疾" />
+                <key str="懐" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="終" />
+            <key str="能" />
+            <key str="領" />
+            <key str="券" />
+            <key str="坪" />
+            <key str="接" />
+            <key str="株" />
+            <key str="午" />
+            <key str="外" />
+
+            <keys>
+                <key str="妥" />
+                <key str="促" />
+                <key str="鮮" />
+                <key str="冬" />
+                <key str="裕" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="触" />
+                <key str="措" />
+                <key str="著" />
+                <key str="絹" />
+                <key str="複" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="拐" />
+                <key str="幣" />
+                <key str="閑" />
+                <key str="妨" />
+                <key str="机" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="販" />
+            <key str="転" />
+            <key str="勢" />
+            <key str="爆" />
+            <key str="州" />
+            <key str="板" />
+            <key str="昇" />
+            <key str="浅" />
+            <key str="春" />
+
+            <keys>
+                <key str="飴" />
+                <key str="蛍" />
+                <key str="錯" />
+                <key str="帆" />
+                <key str="撒" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="梨" />
+                <key str="飢" />
+                <key str="款" />
+                <key str="邪" />
+                <key str="剖" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="堆" />
+                <key str="柑" />
+                <key str="樽" />
+                <key str="稜" />
+                <key str="膝" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="痔" />
+                <key str="朋" />
+                <key str="蒼" />
+                <key str="廿" />
+                <key str="肢" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="腎" />
+                <key str="壱" />
+                <key str="嘩" />
+                <key str="壷" />
+                <key str="糎" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="俣" />
+                <key str="蛋" />
+                <key str="汲" />
+                <key str="俄" />
+                <key str="吠" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="満" />
+            <key str="普" />
+            <key str="洗" />
+            <key str="”" />
+        </keys>
+        <keys>
+            <key str="悪" />
+            <key str="根" />
+            <key str="天" />
+            <key str="寮" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="縄" />
+                <key str="皆" />
+                <key str="滝" />
+                <key str="怪" />
+                <key str="鶏" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="翼" />
+                <key str="折" />
+                <key str="恋" />
+                <key str="照" />
+                <key str="旨" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="唇" />
+                <key str="漠" />
+                <key str="禅" />
+                <key str="鳩" />
+                <key str="遵" />
+                <key />
+            </keys>
+
+            <key str="書" />
+            <key str="目" />
+            <key str="ゐ" />
+            <key str="期" />
+            <key str="続" />
+            <key str="深" />
+            <key str="毎" />
+            <key str="約" />
+            <key str="直" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="納" />
+                <key str="痛" />
+                <key str="牛" />
+                <key str="弥" />
+                <key str="添" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="倒" />
+                <key str="維" />
+                <key str="拡" />
+                <key str="禁" />
+                <key str="虫" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="淑" />
+                <key str="隻" />
+                <key str="奪" />
+                <key str="滋" />
+                <key str="愚" />
+                <key />
+            </keys>
+
+            <key str="ゑ" />
+            <key str="を" />
+            <key str="わ" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key modifier="b" />
+                <key modifier="B" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key modifier="m" />
+                <key str="ゎ" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="歌" />
+            <key str="星" />
+            <key str="族" />
+            <key str="賃" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="尉" />
+                <key str="賜" />
+                <key str="冠" />
+                <key str="寂" />
+                <key str="楠" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="滑" />
+                <key str="誰" />
+                <key str="抱" />
+                <key str="拾" />
+                <key str="蓋" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="豹" />
+                <key str="牙" />
+                <key str="弐" />
+                <key str="洛" />
+                <key str="祇" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="盾" />
+                <key str="如" />
+                <key str="袖" />
+                <key str="巾" />
+                <key str="渚" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="騎" />
+                <key str="猛" />
+                <key str="弊" />
+                <key str="衰" />
+                <key str="墳" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="柵" />
+                <key str="耶" />
+                <key str="梢" />
+                <key str="叡" />
+                <key str="樫" />
+                <key />
+            </keys>
+
+            <key str="助" />
+            <key str="写" />
+            <key str="権" />
+            <key str="申" />
+            <key str="確" />
+            <key str="‘" />
+        </keys>
+        <keys>
+            <key str="病" />
+            <key str="仕" />
+            <key str="今" />
+            <key str="広" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="探" />
+                <key str="矢" />
+                <key str="鹿" />
+                <key str="焦" />
+                <key str="譜" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="占" />
+                <key str="誌" />
+                <key str="療" />
+                <key str="銘" />
+                <key str="凍" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="嬢" />
+                <key str="鎖" />
+                <key str="郊" />
+                <key str="薫" />
+                <key str="墾" />
+                <key />
+            </keys>
+
+            <key str="場" />
+            <key str="す" />
+            <key str="し" />
+            <key str="発" />
+            <key str="総" />
+            <key str="管" />
+            <key str="福" />
+            <key str="有" />
+            <key str="送" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="郷" />
+                <key str="順" />
+                <key str="織" />
+                <key str="承" />
+                <key str="却" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="笑" />
+                <key str="盤" />
+                <key str="降" />
+                <key str="底" />
+                <key str="菜" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="麦" />
+                <key str="俳" />
+                <key str="露" />
+                <key str="壇" />
+                <key str="倫" />
+                <key />
+            </keys>
+
+            <key str="せ" />
+            <key str="そ" />
+            <key str="さ" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="ず" />
+                <key str="じ" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="ぜ" />
+                <key str="ぞ" />
+                <key str="ざ" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="明" />
+            <key str="許" />
+            <key str="従" />
+            <key str="晴" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="軟" />
+                <key str="犠" />
+                <key str="粧" />
+                <key str="霊" />
+                <key str="濯" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="詳" />
+                <key str="戻" />
+                <key str="更" />
+                <key str="薦" />
+                <key str="俵" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="漏" />
+                <key str="陥" />
+                <key str="架" />
+                <key str="馴" />
+                <key str="亘" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="猫" />
+                <key str="耕" />
+                <key str="酵" />
+                <key str="剰" />
+                <key str="慌" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="稿" />
+                <key str="彰" />
+                <key str="熟" />
+                <key str="浄" />
+                <key str="辛" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="虹" />
+                <key str="欣" />
+                <key str="頒" />
+                <key str="唾" />
+                <key str="奄" />
+                <key />
+            </keys>
+
+            <key str="性" />
+            <key str="募" />
+            <key str="選" />
+            <key str="風" />
+            <key str="足" />
+            <key str="☆" />
+        </keys>
+        <keys>
+            <key str="早" />
+            <key str="無" />
+            <key str="各" />
+            <key str="平" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="歓" />
+                <key str="副" />
+                <key str="固" />
+                <key str="綿" />
+                <key str="勉" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="恵" />
+                <key str="岸" />
+                <key str="客" />
+                <key str="漁" />
+                <key str="脱" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="網" />
+                <key str="畑" />
+                <key str="皮" />
+                <key str="舟" />
+                <key str="柱" />
+                <key />
+            </keys>
+
+            <key str="会" />
+            <key str="つ" />
+            <key str="ち" />
+            <key str="人" />
+            <key str="定" />
+            <key str="勤" />
+            <key str="他" />
+            <key str="全" />
+            <key str="保" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="奥" />
+                <key str="周" />
+                <key str="夏" />
+                <key str="域" />
+                <key str="幡" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="婚" />
+                <key str="幹" />
+                <key str="供" />
+                <key str="節" />
+                <key str="異" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="箱" />
+                <key str="存" />
+                <key str="乳" />
+                <key str="亡" />
+                <key str="控" />
+                <key />
+            </keys>
+
+            <key str="て" />
+            <key str="と" />
+            <key str="た" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="っ" />
+                <key str="ぢ" />
+                <key />
+                <key />
+                <key />
+                <key />
+
+                <keys>
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key str="づ" />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                    <key />
+                </keys>
+
+                <key />
+                <key />
+                <key str="で" />
+                <key str="ど" />
+                <key str="だ" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="長" />
+            <key str="街" />
+            <key str="堂" />
+            <key str="独" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="辰" />
+                <key str="隆" />
+                <key str="頼" />
+                <key str="桑" />
+                <key str="悟" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="駐" />
+                <key str="礼" />
+                <key str="倍" />
+                <key str="兄" />
+                <key str="厘" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="摂" />
+                <key str="宛" />
+                <key str="雇" />
+                <key str="后" />
+                <key str="駈" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="漫" />
+                <key str="緑" />
+                <key str="迫" />
+                <key str="芳" />
+                <key str="曽" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="刑" />
+                <key str="揮" />
+                <key str="影" />
+                <key str="刻" />
+                <key str="索" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="椅" />
+                <key str="偽" />
+                <key str="升" />
+                <key str="礁" />
+                <key str="卯" />
+                <key />
+            </keys>
+
+            <key str="話" />
+            <key str="作" />
+            <key str="売" />
+            <key str="打" />
+            <key str="考" />
+            <key str="、" />
+        </keys>
+        <keys>
+            <key str="糸" />
+            <key str="案" />
+            <key str="関" />
+            <key str="音" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="催" />
+                <key str="幅" />
+                <key str="堀" />
+                <key str="則" />
+                <key str="充" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="均" />
+                <key str="譲" />
+                <key str="除" />
+                <key str="桜" />
+                <key str="唱" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="虎" />
+                <key str="浪" />
+                <key str="鳴" />
+                <key str="妙" />
+                <key str="粋" />
+                <key />
+            </keys>
+
+            <key str="上" />
+            <key str="ぬ" />
+            <key str="に" />
+            <key str="員" />
+            <key str="女" />
+            <key str="増" />
+            <key str="米" />
+            <key str="自" />
+            <key str="世" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="又" />
+                <key str="荒" />
+                <key str="援" />
+                <key str="君" />
+                <key str="震" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="絶" />
+                <key str="舎" />
+                <key str="圧" />
+                <key str="焼" />
+                <key str="努" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="鴨" />
+                <key str="菓" />
+                <key str="看" />
+                <key str="敵" />
+                <key str="鉛" />
+                <key />
+            </keys>
+
+            <key str="ね" />
+            <key str="の" />
+            <key str="な" />
+            <key str="ん" />
+            <key str="方" />
+            <key str="鈴" />
+            <key str="兵" />
+            <key str="観" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="祖" />
+                <key str="沿" />
+                <key str="峰" />
+                <key str="勲" />
+                <key str="峡" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="摘" />
+                <key str="犬" />
+                <key str="鎌" />
+                <key str="陰" />
+                <key str="筒" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="煩" />
+                <key str="迭" />
+                <key str="窮" />
+                <key str="洪" />
+                <key str="臆" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="敬" />
+                <key str="腕" />
+                <key str="娘" />
+                <key str="鍛" />
+                <key str="洞" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="宏" />
+                <key str="傾" />
+                <key str="欲" />
+                <key str="誤" />
+                <key str="廷" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="尺" />
+                <key str="廉" />
+                <key str="刀" />
+                <key str="雌" />
+                <key str="靖" />
+                <key />
+            </keys>
+
+            <key str="語" />
+            <key str="交" />
+            <key str="店" />
+            <key str="価" />
+            <key str="望" />
+            <key str="。" />
+        </keys>
+        <keys>
+            <key str="試" />
+            <key str="額" />
+            <key str="運" />
+            <key str="計" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="需" />
+                <key str="遅" />
+                <key str="創" />
+                <key str="踊" />
+                <key str="緒" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="列" />
+                <key str="魚" />
+                <key str="典" />
+                <key str="宣" />
+                <key str="毒" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="惜" />
+                <key str="黙" />
+                <key str="微" />
+                <key str="祈" />
+                <key str="遷" />
+                <key />
+            </keys>
+
+            <key str="通" />
+            <key str="る" />
+            <key str="り" />
+            <key str="生" />
+            <key str="成" />
+            <key str="習" />
+            <key str="利" />
+            <key str="住" />
+            <key str="現" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="筆" />
+                <key str="錠" />
+                <key str="盟" />
+                <key str="幕" />
+                <key str="灯" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="障" />
+                <key str="瀬" />
+                <key str="繊" />
+                <key str="移" />
+                <key str="困" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="慢" />
+                <key str="弦" />
+                <key str="腰" />
+                <key str="凡" />
+                <key str="懲" />
+                <key />
+            </keys>
+
+            <key str="れ" />
+            <key str="ろ" />
+            <key str="ら" />
+            <key str="社" />
+            <key str="政" />
+            <key str="帝" />
+            <key str="監" />
+            <key str="変" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="彫" />
+                <key str="魔" />
+                <key str="祝" />
+                <key str="携" />
+                <key str="斐" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="濃" />
+                <key str="暖" />
+                <key str="珠" />
+                <key str="杯" />
+                <key str="叫" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="桶" />
+                <key str="累" />
+                <key str="晶" />
+                <key str="宰" />
+                <key str="癒" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="唐" />
+                <key str="脇" />
+                <key str="貝" />
+                <key str="怠" />
+                <key str="翁" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="笠" />
+                <key str="銅" />
+                <key str="胸" />
+                <key str="脅" />
+                <key str="濁" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="芙" />
+                <key str="溝" />
+                <key str="蹟" />
+                <key str="諏" />
+                <key str="迦" />
+                <key />
+            </keys>
+
+            <key str="点" />
+            <key str="重" />
+            <key str="男" />
+            <key str="込" />
+            <key str="規" />
+            <key str="『" />
+        </keys>
+        <keys>
+            <key str="松" />
+            <key str="動" />
+            <key str="高" />
+            <key str="山" />
+            <key str="名" />
+
+            <keys>
+                <key str="匹" />
+                <key str="皇" />
+                <key str="湖" />
+                <key str="仙" />
+                <key str="描" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="掲" />
+                <key str="薄" />
+                <key str="湯" />
+                <key str="呼" />
+                <key str="絡" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="燈" />
+                <key str="哀" />
+                <key str="畳" />
+                <key str="桃" />
+                <key str="綾" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="製" />
+            <key str="連" />
+            <key str="由" />
+            <key str="級" />
+            <key str="藤" />
+            <key str="代" />
+            <key str="東" />
+            <key str="新" />
+            <key str="円" />
+
+            <keys>
+                <key str="寝" />
+                <key str="就" />
+                <key str="須" />
+                <key str="操" />
+                <key str="招" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="兼" />
+                <key str="飯" />
+                <key str="責" />
+                <key str="依" />
+                <key str="盗" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="胎" />
+                <key str="梶" />
+                <key str="脂" />
+                <key str="鏡" />
+                <key str="抽" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="力" />
+            <key str="化" />
+            <key str="夜" />
+            <key str="位" />
+            <key str="精" />
+            <key str="浜" />
+            <key str="南" />
+            <key str="横" />
+            <key str="軍" />
+
+            <keys>
+                <key str="斤" />
+                <key str="嶺" />
+                <key str="縦" />
+                <key str="涼" />
+                <key str="奮" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="旺" />
+                <key str="隔" />
+                <key str="寛" />
+                <key str="眠" />
+                <key str="奨" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="嵯" />
+                <key str="勾" />
+                <key str="叱" />
+                <key str="昆" />
+                <key str="蕗" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="斜" />
+                <key str="炎" />
+                <key str="淡" />
+                <key str="佳" />
+                <key str="挑" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="苑" />
+                <key str="揚" />
+                <key str="還" />
+                <key str="堅" />
+                <key str="悩" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="蓉" />
+                <key str="拷" />
+                <key str="狼" />
+                <key str="愁" />
+                <key str="嘱" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="含" />
+            <key str="比" />
+            <key str="準" />
+            <key str="』" />
+        </keys>
+        <keys>
+            <key str="安" />
+            <key str="川" />
+            <key str="国" />
+            <key str="電" />
+            <key str="部" />
+
+            <keys>
+                <key str="旬" />
+                <key str="飾" />
+                <key str="採" />
+                <key str="離" />
+                <key str="功" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="岳" />
+                <key str="秒" />
+                <key str="闘" />
+                <key str="疑" />
+                <key str="仏" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="仰" />
+                <key str="怒" />
+                <key str="項" />
+                <key str="吾" />
+                <key str="伎" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="種" />
+            <key str="車" />
+            <key str="局" />
+            <key str="課" />
+            <key str="付" />
+            <key str="月" />
+            <key str="二" />
+            <key str="年" />
+            <key str="四" />
+
+            <keys>
+                <key str="扱" />
+                <key str="父" />
+                <key str="布" />
+                <key str="温" />
+                <key str="血" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="因" />
+                <key str="象" />
+                <key str="康" />
+                <key str="紡" />
+                <key str="識" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="尊" />
+                <key str="至" />
+                <key str="儀" />
+                <key str="飲" />
+                <key str="賦" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="験" />
+            <key str="下" />
+            <key str="物" />
+            <key str="在" />
+            <key str="友" />
+            <key str="戸" />
+            <key str="谷" />
+            <key str="台" />
+            <key str="土" />
+
+            <keys>
+                <key str="憶" />
+                <key str="卵" />
+                <key str="騒" />
+                <key str="肌" />
+                <key str="蓄" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="蝶" />
+                <key str="奉" />
+                <key str="暮" />
+                <key str="亀" />
+                <key str="絵" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="遥" />
+                <key str="蛮" />
+                <key str="皿" />
+                <key str="矛" />
+                <key str="冗" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="枕" />
+                <key str="庶" />
+                <key str="誇" />
+                <key str="裳" />
+                <key str="粛" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="胴" />
+                <key str="卓" />
+                <key str="悲" />
+                <key str="献" />
+                <key str="童" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="朔" />
+                <key str="哉" />
+                <key str="虐" />
+                <key str="殴" />
+                <key str="惰" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="聞" />
+            <key str="止" />
+            <key str="難" />
+            <key str="々" />
+        </keys>
+        <keys>
+            <key str="都" />
+            <key str="給" />
+            <key str="三" />
+            <key str="五" />
+            <key str="業" />
+
+            <keys>
+                <key str="潟" />
+                <key str="博" />
+                <key str="境" />
+                <key str="借" />
+                <key str="夕" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="寿" />
+                <key str="攻" />
+                <key str="邦" />
+                <key str="衆" />
+                <key str="姿" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="較" />
+                <key str="染" />
+                <key str="硝" />
+                <key str="臣" />
+                <key str="疲" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="用" />
+            <key str="以" />
+            <key str="体" />
+            <key str="育" />
+            <key str="経" />
+            <key str="田" />
+            <key str="日" />
+            <key str="一" />
+            <key str="十" />
+
+            <keys>
+                <key str="豪" />
+                <key str="謡" />
+                <key str="舞" />
+                <key str="密" />
+                <key str="遠" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="筋" />
+                <key str="系" />
+                <key str="針" />
+                <key str="徒" />
+                <key str="喜" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="零" />
+                <key str="宙" />
+                <key str="喫" />
+                <key str="欧" />
+                <key str="致" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="間" />
+            <key str="回" />
+            <key str="所" />
+            <key str="式" />
+            <key str="収" />
+            <key str="料" />
+            <key str="道" />
+            <key str="橋" />
+            <key str="神" />
+
+            <keys>
+                <key str="嘉" />
+                <key str="仮" />
+                <key str="辞" />
+                <key str="牧" />
+                <key str="勧" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="床" />
+                <key str="浮" />
+                <key str="片" />
+                <key str="弱" />
+                <key str="勇" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="劾" />
+                <key str="憤" />
+                <key str="励" />
+                <key str="惨" />
+                <key str="隈" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="誕" />
+                <key str="序" />
+                <key str="被" />
+                <key str="縮" />
+                <key str="吹" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="菅" />
+                <key str="載" />
+                <key str="危" />
+                <key str="乞" />
+                <key str="替" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="茜" />
+                <key str="俺" />
+                <key str="涙" />
+                <key str="握" />
+                <key str="蘭" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="件" />
+            <key str="審" />
+            <key str="裁" />
+            <key str="※" />
+        </keys>
+        <keys>
+            <key str="与" />
+            <key str="木" />
+            <key str="八" />
+            <key str="小" />
+            <key str="問" />
+
+            <keys>
+                <key str="扇" />
+                <key str="届" />
+                <key str="併" />
+                <key str="執" />
+                <key str="菊" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="獄" />
+                <key str="像" />
+                <key str="酸" />
+                <key str="札" />
+                <key str="丹" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="仇" />
+                <key str="於" />
+                <key str="暑" />
+                <key str="泥" />
+                <key str="悦" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="界" />
+            <key str="完" />
+            <key str="薬" />
+            <key str="色" />
+            <key str="正" />
+            <key str="後" />
+            <key str="時" />
+            <key str="同" />
+            <key str="面" />
+
+            <keys>
+                <key str="眼" />
+                <key str="災" />
+                <key str="破" />
+                <key str="舗" />
+                <key str="豆" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="湾" />
+                <key str="傷" />
+                <key str="締" />
+                <key str="換" />
+                <key str="犯" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="赴" />
+                <key str="糧" />
+                <key str="謝" />
+                <key str="穴" />
+                <key str="姉" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="設" />
+            <key str="歴" />
+            <key str="際" />
+            <key str="済" />
+            <key str="寺" />
+            <key str="火" />
+            <key str="共" />
+            <key str="武" />
+            <key str="造" />
+
+            <keys>
+                <key str="妓" />
+                <key str="屈" />
+                <key str="壁" />
+                <key str="炊" />
+                <key str="蓮" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="庸" />
+                <key str="憂" />
+                <key str="律" />
+                <key str="襲" />
+                <key str="釣" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="鹸" />
+                <key str="妖" />
+                <key str="衷" />
+                <key str="襟" />
+                <key str="覇" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="猟" />
+                <key str="帽" />
+                <key str="貫" />
+                <key str="嵐" />
+                <key str="貞" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="尿" />
+                <key str="懇" />
+                <key str="躍" />
+                <key str="欠" />
+                <key str="栃" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="謎" />
+                <key str="儒" />
+                <key str="訟" />
+                <key str="租" />
+                <key str="殉" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="師" />
+            <key str="殺" />
+            <key str="適" />
+            <key str="＼" />
+        </keys>
+        <keys>
+            <key str="清" />
+            <key str="佐" />
+            <key str="北" />
+            <key str="原" />
+            <key str="近" />
+
+            <keys>
+                <key str="尻" />
+                <key str="敏" />
+                <key str="卸" />
+                <key str="駒" />
+                <key str="那" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="冒" />
+                <key str="輝" />
+                <key str="柄" />
+                <key str="甲" />
+                <key str="避" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="該" />
+                <key str="碑" />
+                <key str="斉" />
+                <key str="栽" />
+                <key str="偏" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="容" />
+            <key str="技" />
+            <key str="段" />
+            <key str="巨" />
+            <key str="賞" />
+            <key str="商" />
+            <key str="不" />
+            <key str="歩" />
+            <key str="教" />
+
+            <keys>
+                <key str="窯" />
+                <key str="葬" />
+                <key str="忠" />
+                <key str="遺" />
+                <key str="礎" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="預" />
+                <key str="柳" />
+                <key str="債" />
+                <key str="汽" />
+                <key str="塩" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="漸" />
+                <key str="酢" />
+                <key str="硬" />
+                <key str="豚" />
+                <key str="丈" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="号" />
+            <key str="係" />
+            <key str="側" />
+            <key str="究" />
+            <key str="履" />
+            <key str="坂" />
+            <key str="江" />
+            <key str="宝" />
+            <key str="芸" />
+
+            <keys>
+                <key str="馨" />
+                <key str="賠" />
+                <key str="酔" />
+                <key str="唆" />
+                <key str="沸" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="拭" />
+                <key str="膨" />
+                <key str="紛" />
+                <key str="寒" />
+                <key str="瓦" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="詮" />
+                <key str="隙" />
+                <key str="嚇" />
+                <key str="寅" />
+                <key str="堺" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="萩" />
+                <key str="爵" />
+                <key str="劣" />
+                <key str="噴" />
+                <key str="盲" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="渥" />
+                <key str="瞳" />
+                <key str="獣" />
+                <key str="溜" />
+                <key str="浸" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="匙" />
+                <key str="挨" />
+                <key str="肇" />
+                <key str="斡" />
+                <key str="廓" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="低" />
+            <key str="例" />
+            <key str="図" />
+            <key str="’" />
+        </keys>
+        <keys>
+            <key str="伸" />
+            <key str="裏" />
+            <key str="類" />
+            <key str="復" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="亥" />
+                <key str="髄" />
+                <key str="宜" />
+                <key str="畝" />
+                <key str="莫" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="勅" />
+                <key str="霜" />
+                <key str="槽" />
+                <key str="粘" />
+                <key str="鞄" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="兜" />
+                <key str="倶" />
+                <key str="尖" />
+                <key str="茅" />
+                <key str="漕" />
+                <key />
+            </keys>
+
+            <key str="落" />
+            <key str="好" />
+            <key str="器" />
+            <key str="読" />
+            <key str="達" />
+            <key str="奏" />
+            <key str="医" />
+            <key str="評" />
+            <key str="討" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="培" />
+                <key str="貢" />
+                <key str="醸" />
+                <key str="丞" />
+                <key str="詔" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="雀" />
+                <key str="勘" />
+                <key str="距" />
+                <key str="磁" />
+                <key str="陪" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="芥" />
+                <key str="佑" />
+                <key str="鍾" />
+                <key str="拶" />
+                <key str="樋" />
+                <key />
+            </keys>
+
+            <key str="判" />
+            <key str="策" />
+            <key str="若" />
+            <key str="任" />
+            <key str="置" />
+            <key str="雑" />
+            <key str="刊" />
+            <key str="酒" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="砦" />
+                <key str="杜" />
+                <key str="桁" />
+                <key str="髭" />
+                <key str="蒙" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="梱" />
+                <key str="稔" />
+                <key str="汐" />
+                <key str="凱" />
+                <key str="潅" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="遡" />
+                <key str="茸" />
+                <key str="悶" />
+                <key str="蕪" />
+                <key str="袴" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="舷" />
+                <key str="瞭" />
+                <key str="槙" />
+                <key str="楯" />
+                <key str="椎" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="串" />
+                <key str="禎" />
+                <key str="渦" />
+                <key str="琶" />
+                <key str="註" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="堰" />
+                <key str="屠" />
+                <key str="酋" />
+                <key str="醒" />
+                <key str="鞭" />
+                <key />
+            </keys>
+
+            <key str="負" />
+            <key str="失" />
+            <key str="起" />
+            <key str="抜" />
+            <key str="違" />
+            <key str="〆" />
+        </keys>
+        <keys>
+            <key str="羽" />
+            <key str="短" />
+            <key str="非" />
+            <key str="遊" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="朽" />
+                <key str="骸" />
+                <key str="誓" />
+                <key str="倹" />
+                <key str="窪" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="酷" />
+                <key str="隠" />
+                <key str="賢" />
+                <key str="恥" />
+                <key str="逝" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="蟻" />
+                <key str="羨" />
+                <key str="爪" />
+                <key str="脊" />
+                <key str="稀" />
+                <key />
+            </keys>
+
+            <key str="情" />
+            <key str="館" />
+            <key str="進" />
+            <key str="求" />
+            <key str="限" />
+            <key str="示" />
+            <key str="単" />
+            <key str="庭" />
+            <key str="具" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="堪" />
+                <key str="肝" />
+                <key str="鋳" />
+                <key str="瓶" />
+                <key str="寧" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="墜" />
+                <key str="翌" />
+                <key str="坊" />
+                <key str="召" />
+                <key str="肖" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="把" />
+                <key str="欽" />
+                <key str="剃" />
+                <key str="釧" />
+                <key str="槍" />
+                <key />
+            </keys>
+
+            <key str="投" />
+            <key str="備" />
+            <key str="記" />
+            <key str="引" />
+            <key str="争" />
+            <key str="推" />
+            <key str="徳" />
+            <key str="御" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="闇" />
+                <key str="綴" />
+                <key str="娯" />
+                <key str="郁" />
+                <key str="箸" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="閲" />
+                <key str="附" />
+                <key str="径" />
+                <key str="喚" />
+                <key str="俸" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="峯" />
+                <key str="雁" />
+                <key str="閃" />
+                <key str="腿" />
+                <key str="壬" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="柿" />
+                <key str="塔" />
+                <key str="瑛" />
+                <key str="粟" />
+                <key str="鼠" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="紗" />
+                <key str="沙" />
+                <key str="僅" />
+                <key str="亦" />
+                <key str="汰" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="蕉" />
+                <key str="蓬" />
+                <key str="噌" />
+                <key str="苅" />
+                <key str="屑" />
+                <key />
+            </keys>
+
+            <key str="認" />
+            <key str="想" />
+            <key str="命" />
+            <key str="導" />
+            <key str="声" />
+            <key str="§" />
+        </keys>
+        <keys>
+            <key str="静" />
+            <key str="何" />
+            <key str="補" />
+            <key str="施" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="懸" />
+                <key str="掘" />
+                <key str="硫" />
+                <key str="傑" />
+                <key str="垂" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="閉" />
+                <key str="旗" />
+                <key str="廃" />
+                <key str="剣" />
+                <key str="覆" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="紐" />
+                <key str="擦" />
+                <key str="酪" />
+                <key str="慧" />
+                <key str="糊" />
+                <key />
+            </keys>
+
+            <key str="私" />
+            <key str="調" />
+            <key str="対" />
+            <key str="演" />
+            <key str="応" />
+            <key str="児" />
+            <key str="貸" />
+            <key str="改" />
+            <key str="防" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="浩" />
+                <key str="俊" />
+                <key str="雲" />
+                <key str="啓" />
+                <key str="斗" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="銭" />
+                <key str="里" />
+                <key str="渉" />
+                <key str="徹" />
+                <key str="艦" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="謄" />
+                <key str="透" />
+                <key str="麗" />
+                <key str="耗" />
+                <key str="凹" />
+                <key />
+            </keys>
+
+            <key str="戦" />
+            <key str="当" />
+            <key str="委" />
+            <key str="党" />
+            <key str="義" />
+            <key str="渡" />
+            <key str="登" />
+            <key str="守" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="鍵" />
+                <key str="購" />
+                <key str="伯" />
+                <key str="逢" />
+                <key str="遮" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="釜" />
+                <key str="孤" />
+                <key str="称" />
+                <key str="溶" />
+                <key str="腫" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="榊" />
+                <key str="妄" />
+                <key str="勺" />
+                <key str="湘" />
+                <key str="蛾" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="鈍" />
+                <key str="峠" />
+                <key str="貼" />
+                <key str="缶" />
+                <key str="栓" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="虚" />
+                <key str="撤" />
+                <key str="頁" />
+                <key str="睡" />
+                <key str="稽" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="厭" />
+                <key str="遼" />
+                <key str="塑" />
+                <key str="淀" />
+                <key str="狽" />
+                <key />
+            </keys>
+
+            <key str="愛" />
+            <key str="流" />
+            <key str="説" />
+            <key str="席" />
+            <key str="提" />
+            <key str="○" />
+        </keys>
+        <keys>
+            <key str="財" />
+            <key str="積" />
+            <key str="軽" />
+            <key str="帰" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="臭" />
+                <key str="彩" />
+                <key str="謙" />
+                <key str="錬" />
+                <key str="叔" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="煮" />
+                <key str="泊" />
+                <key str="甘" />
+                <key str="澄" />
+                <key str="甚" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="朕" />
+                <key str="挟" />
+                <key str="昂" />
+                <key str="瑠" />
+                <key str="粕" />
+                <key />
+            </keys>
+
+            <key str="取" />
+            <key str="知" />
+            <key str="要" />
+            <key str="術" />
+            <key str="買" />
+            <key str="志" />
+            <key str="追" />
+            <key str="役" />
+            <key str="素" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="液" />
+                <key str="契" />
+                <key str="也" />
+                <key str="恒" />
+                <key str="媒" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="帳" />
+                <key str="掃" />
+                <key str="簡" />
+                <key str="汚" />
+                <key str="概" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="漆" />
+                <key str="囚" />
+                <key str="拳" />
+                <key str="侮" />
+                <key str="祐" />
+                <key />
+            </keys>
+
+            <key str="組" />
+            <key str="来" />
+            <key str="入" />
+            <key str="受" />
+            <key str="査" />
+            <key str="効" />
+            <key str="冷" />
+            <key str="程" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="渓" />
+                <key str="裾" />
+                <key str="遍" />
+                <key str="緋" />
+                <key str="舵" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="凝" />
+                <key str="厄" />
+                <key str="憎" />
+                <key str="旭" />
+                <key str="庵" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="撫" />
+                <key str="芭" />
+                <key str="魁" />
+                <key str="卿" />
+                <key str="曾" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="醤" />
+                <key str="剛" />
+                <key str="播" />
+                <key str="嘘" />
+                <key str="冨" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="穫" />
+                <key str="徐" />
+                <key str="李" />
+                <key str="辱" />
+                <key str="痘" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="采" />
+                <key str="楚" />
+                <key str="牢" />
+                <key str="槻" />
+                <key str="竿" />
+                <key />
+            </keys>
+
+            <key str="着" />
+            <key str="検" />
+            <key str="婦" />
+            <key str="録" />
+            <key str="答" />
+            <key str="÷" />
+        </keys>
+        <keys>
+            <key str="始" />
+            <key str="迎" />
+            <key str="率" />
+            <key str="便" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="眉" />
+                <key str="泌" />
+                <key str="刈" />
+                <key str="斥" />
+                <key str="汝" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="糾" />
+                <key str="嗣" />
+                <key str="朱" />
+                <key str="崇" />
+                <key str="坦" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="斧" />
+                <key str="椿" />
+                <key str="盃" />
+                <key str="禿" />
+                <key str="逗" />
+                <key />
+            </keys>
+
+            <key str="別" />
+            <key str="切" />
+            <key str="意" />
+            <key str="身" />
+            <key str="感" />
+            <key str="未" />
+            <key str="挙" />
+            <key str="花" />
+            <key str="介" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="奴" />
+                <key str="恩" />
+                <key str="抵" />
+                <key str="尽" />
+                <key str="詠" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="桐" />
+                <key str="唯" />
+                <key str="到" />
+                <key str="喪" />
+                <key str="疎" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="楓" />
+                <key str="紘" />
+                <key str="帥" />
+                <key str="幌" />
+                <key str="燐" />
+                <key />
+            </keys>
+
+            <key str="多" />
+            <key str="強" />
+            <key str="実" />
+            <key str="思" />
+            <key str="派" />
+            <key str="宇" />
+            <key str="響" />
+            <key str="史" />
+
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="抄" />
+                <key str="藩" />
+                <key str="享" />
+                <key str="貰" />
+                <key str="嶋" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="灰" />
+                <key str="酬" />
+                <key str="狩" />
+                <key str="隷" />
+                <key str="凸" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="慾" />
+                <key str="埼" />
+                <key str="蜜" />
+                <key str="鎚" />
+                <key str="汀" />
+                <key />
+            </keys>
+            <keys>
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="柴" />
+                <key str="罷" />
+                <key str="毅" />
+                <key str="榎" />
+                <key str="乎" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="晋" />
+                <key str="梓" />
+                <key str="婆" />
+                <key str="麿" />
+                <key str="牟" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="膿" />
+                <key str="伽" />
+                <key str="尤" />
+                <key str="耽" />
+                <key str="饗" />
+                <key />
+            </keys>
+
+            <key str="消" />
+            <key str="再" />
+            <key str="言" />
+            <key str="張" />
+            <key str="過" />
+            <key str="←" />
+        </keys>
+        <keys>
+            <key str="河" />
+            <key str="元" />
+            <key str="崎" />
+            <key str="半" />
+            <key str="林" />
+
+            <keys>
+                <key str="臼" />
+                <key str="洩" />
+                <key str="猶" />
+                <key str="鼓" />
+                <key str="枢" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="猪" />
+                <key str="吟" />
+                <key str="艇" />
+                <key str="暁" />
+                <key str="賊" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="塞" />
+                <key str="憧" />
+                <key str="佃" />
+                <key str="曳" />
+                <key str="蟹" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="庁" />
+            <key str="然" />
+            <key str="字" />
+            <key str="閣" />
+            <key str="研" />
+            <key str="丸" />
+            <key str="急" />
+            <key str="光" />
+            <key str="次" />
+
+            <keys>
+                <key str="叉" />
+                <key str="擁" />
+                <key str="撮" />
+                <key str="陛" />
+                <key str="其" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="偶" />
+                <key str="阻" />
+                <key str="泳" />
+                <key str="籍" />
+                <key str="撲" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="卦" />
+                <key str="玩" />
+                <key str="絞" />
+                <key str="冴" />
+                <key str="塀" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="良" />
+            <key str="論" />
+            <key str="般" />
+            <key str="末" />
+            <key str="振" />
+            <key str="津" />
+            <key str="草" />
+            <key str="芝" />
+            <key str="岩" />
+
+            <keys>
+                <key str="勿" />
+                <key str="頓" />
+                <key str="亨" />
+                <key str="彬" />
+                <key str="畏" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="罫" />
+                <key str="岬" />
+                <key str="衿" />
+                <key str="絢" />
+                <key str="瑞" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="鵬" />
+                <key str="竪" />
+                <key str="溢" />
+                <key str="腺" />
+                <key str="鷲" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="妾" />
+                <key str="吊" />
+                <key str="燥" />
+                <key str="蚕" />
+                <key str="繍" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="酉" />
+                <key str="湧" />
+                <key str="詐" />
+                <key str="脈" />
+                <key str="狙" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="潰" />
+                <key str="歎" />
+                <key str="迂" />
+                <key str="鮭" />
+                <key str="杖" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="署" />
+            <key str="華" />
+            <key str="厚" />
+            <key str="→" />
+        </keys>
+        <keys>
+            <key str="越" />
+            <key str="蔵" />
+            <key str="宿" />
+            <key str="岡" />
+            <key str="門" />
+
+            <keys>
+                <key str="跳" />
+                <key str="拘" />
+                <key str="遣" />
+                <key str="欄" />
+                <key str="薩" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="篭" />
+                <key str="壮" />
+                <key str="乾" />
+                <key str="秩" />
+                <key str="頂" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="此" />
+                <key str="玲" />
+                <key str="旦" />
+                <key str="曲" />
+                <key str="挺" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="之" />
+            <key str="断" />
+            <key str="養" />
+            <key str="担" />
+            <key str="葉" />
+            <key str="卒" />
+            <key str="海" />
+            <key str="郎" />
+            <key str="宅" />
+
+            <keys>
+                <key str="掌" />
+                <key str="捨" />
+                <key str="昌" />
+                <key str="訓" />
+                <key str="穂" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="刃" />
+                <key str="呉" />
+                <key str="包" />
+                <key str="息" />
+                <key str="踏" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="羅" />
+                <key str="伐" />
+                <key str="痢" />
+                <key str="翻" />
+                <key str="陵" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="様" />
+            <key str="値" />
+            <key str="編" />
+            <key str="塁" />
+            <key str="鉱" />
+            <key str="塚" />
+            <key str="条" />
+            <key str="幸" />
+            <key str="城" />
+
+            <keys>
+                <key str="阜" />
+                <key str="粍" />
+                <key str="践" />
+                <key str="狗" />
+                <key str="赦" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="屯" />
+                <key str="膜" />
+                <key str="苗" />
+                <key str="棚" />
+                <key str="艶" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="桓" />
+                <key str="凧" />
+                <key str="琵" />
+                <key str="蛙" />
+                <key str="糞" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="碇" />
+                <key str="頻" />
+                <key str="癖" />
+                <key str="鈎" />
+                <key str="鯉" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="篠" />
+                <key str="鮎" />
+                <key str="朴" />
+                <key str="縛" />
+                <key str="戴" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="硯" />
+                <key str="檀" />
+                <key str="餅" />
+                <key str="蝿" />
+                <key str="屍" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="害" />
+            <key str="量" />
+            <key str="督" />
+            <key str="×" />
+        </keys>
+        <keys>
+            <key str="統" />
+            <key str="県" />
+            <key str="可" />
+            <key str="石" />
+            <key str="格" />
+
+            <keys>
+                <key str="慕" />
+                <key str="乙" />
+                <key str="霧" />
+                <key str="肩" />
+                <key str="顧" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="尋" />
+                <key str="随" />
+                <key str="緊" />
+                <key str="仁" />
+                <key str="吸" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="詫" />
+                <key str="侯" />
+                <key str="砕" />
+                <key str="伍" />
+                <key str="肯" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="旅" />
+            <key str="険" />
+            <key str="撃" />
+            <key str="将" />
+            <key str="倉" />
+            <key str="朝" />
+            <key str="市" />
+            <key str="文" />
+            <key str="村" />
+
+            <keys>
+                <key str="呂" />
+                <key str="殿" />
+                <key str="鶴" />
+                <key str="燃" />
+                <key str="診" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="扶" />
+                <key str="囲" />
+                <key str="端" />
+                <key str="季" />
+                <key str="荻" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="殻" />
+                <key str="喧" />
+                <key str="壊" />
+                <key str="拍" />
+                <key str="畔" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="省" />
+            <key str="路" />
+            <key str="印" />
+            <key str="状" />
+            <key str="敷" />
+            <key str="尾" />
+            <key str="栄" />
+            <key str="玉" />
+            <key str="永" />
+
+            <keys>
+                <key str="聡" />
+                <key str="稼" />
+                <key str="暇" />
+                <key str="恭" />
+                <key str="崩" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="喝" />
+                <key str="坐" />
+                <key str="諭" />
+                <key str="殖" />
+                <key str="粒" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="讃" />
+                <key str="茨" />
+                <key str="藻" />
+                <key str="禄" />
+                <key str="姦" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="酌" />
+                <key str="蚊" />
+                <key str="腹" />
+                <key str="衡" />
+                <key str="拙" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="盆" />
+                <key str="閥" />
+                <key str="据" />
+                <key str="繰" />
+                <key str="碁" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="宍" />
+                <key str="秦" />
+                <key str="塾" />
+                <key str="孟" />
+                <key str="蔑" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="個" />
+            <key str="視" />
+            <key str="練" />
+            <key str="《" />
+        </keys>
+        <keys>
+            <key str="秀" />
+            <key str="築" />
+            <key str="室" />
+            <key str="休" />
+            <key str="吉" />
+
+            <keys>
+                <key str="蜂" />
+                <key str="悔" />
+                <key str="紺" />
+                <key str="悠" />
+                <key str="窃" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="鯛" />
+                <key str="禍" />
+                <key str="宴" />
+                <key str="眺" />
+                <key str="逐" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="覗" />
+                <key str="桧" />
+                <key str="韓" />
+                <key str="頚" />
+                <key str="燭" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="仲" />
+            <key str="構" />
+            <key str="司" />
+            <key str="械" />
+            <key str="菱" />
+            <key str="農" />
+            <key str="支" />
+            <key str="沢" />
+            <key str="古" />
+
+            <keys>
+                <key str="馳" />
+                <key str="虜" />
+                <key str="珍" />
+                <key str="暦" />
+                <key str="蒸" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="吏" />
+                <key str="穀" />
+                <key str="肥" />
+                <key str="斎" />
+                <key str="陳" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="賎" />
+                <key str="芯" />
+                <key str="頑" />
+                <key str="矩" />
+                <key str="鉢" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="型" />
+            <key str="装" />
+            <key str="敗" />
+            <key str="即" />
+            <key str="融" />
+            <key str="竹" />
+            <key str="庫" />
+            <key str="曜" />
+            <key str="秋" />
+
+            <keys>
+                <key str="烹" />
+                <key str="苔" />
+                <key str="渇" />
+                <key str="惇" />
+                <key str="汎" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="諺" />
+                <key str="抹" />
+                <key str="淋" />
+                <key str="丑" />
+                <key str="峻" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="兎" />
+                <key str="弛" />
+                <key str="櫛" />
+                <key str="迄" />
+                <key str="姐" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="牡" />
+                <key str="允" />
+                <key str="云" />
+                <key str="箇" />
+                <key str="釦" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="萌" />
+                <key str="蔭" />
+                <key str="叙" />
+                <key str="妃" />
+                <key str="愉" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="諜" />
+                <key str="苛" />
+                <key str="帖" />
+                <key str="戚" />
+                <key str="薮" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="巻" />
+            <key str="彼" />
+            <key str="況" />
+            <key str="》" />
+        </keys>
+        <keys>
+            <key str="油" />
+            <key str="角" />
+            <key str="渋" />
+            <key str="豊" />
+            <key str="齢" />
+
+            <keys>
+                <key str="曙" />
+                <key str="晃" />
+                <key str="逓" />
+                <key str="弧" />
+                <key str="卑" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="璃" />
+                <key str="塊" />
+                <key str="逸" />
+                <key str="慈" />
+                <key str="枯" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="恕" />
+                <key str="斑" />
+                <key str="蝕" />
+                <key str="畠" />
+                <key str="狸" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="極" />
+            <key str="郵" />
+            <key str="居" />
+            <key str="護" />
+            <key str="浴" />
+            <key str="億" />
+            <key str="森" />
+            <key str="馬" />
+            <key str="袋" />
+
+            <keys>
+                <key str="褐" />
+                <key str="堤" />
+                <key str="旋" />
+                <key str="偵" />
+                <key str="篤" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="或" />
+                <key str="謀" />
+                <key str="己" />
+                <key str="巳" />
+                <key str="巧" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="醍" />
+                <key str="銚" />
+                <key str="且" />
+                <key str="敦" />
+                <key str="咽" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="故" />
+            <key str="働" />
+            <key str="授" />
+            <key str="辺" />
+            <key str="浦" />
+            <key str="泉" />
+            <key str="波" />
+            <key str="環" />
+            <key str="陸" />
+
+            <keys>
+                <key str="縞" />
+                <key str="娼" />
+                <key str="琢" />
+                <key str="枠" />
+                <key str="牝" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="烏" />
+                <key str="龍" />
+                <key str="餓" />
+                <key str="爾" />
+                <key str="褒" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="叶" />
+                <key str="葛" />
+                <key str="椀" />
+                <key str="碍" />
+                <key str="劫" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+            <keys>
+                <key str="獅" />
+                <key str="溺" />
+                <key str="畿" />
+                <key str="塵" />
+                <key str="瓜" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="仔" />
+                <key str="倭" />
+                <key str="駿" />
+                <key str="匁" />
+                <key str="姑" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key str="脆" />
+                <key str="箕" />
+                <key str="剥" />
+                <key str="醐" />
+                <key str="凌" />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+                <key />
+            </keys>
+
+            <key str="雨" />
+            <key str="才" />
+            <key str="景" />
+            <key str="／" />
+        </keys>
+
+        <key modifier="v" str=" " />
+    </table>
+
+</resources>

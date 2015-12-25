@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+漢直定義用xml。
+qwert yuiop
+asdfg hjkl;
+zxcvb nm,./
+[space]
+の31キー。
+<table name="テーブル名">
+	キー配列…<key/>または<keys/>合せて31個
+	<key/>に文字を定義。
+		str…出力する文字
+		keytop…キーに表示される文字列を定義。無い場合はstrと同じものを使う
+		defined…falseにすると未定義キーとする。デフォルトはtrue(<key/>としただけのキーはfalseにした方がいいかも?)
+		modifier…trueにするとモディファイアキーとする。デフォルトはfalse(typeにまとめちゃっていいかも)
+		type…spaceにするとスペースキー。
+	<keys></keys>内に<key/>を31個定義できる。
+		keytop…キーに表示される文字列
+</table>
+ -->
+<resources>
+ 	<table name="TUT">
+ 	    <keys>
+ 	        <key str="並"/>
+ 	        <key str="伝"/>
+ 	        <key str="青"/>
+ 	        <key str="整"/>
+ 	        <key defined="false"/>  
+ 	        <key str="食"/>
+ 	        <key str="ゆ"/>
+ 	        <key str="相"/>
+ 	        <key str="解"/>
+ 	        <key str="配"/>
+ 	        
+ 	        <key str="念"/>
+ 	        <key str="税"/>
+ 	        <key str="黒"/>
+ 	        <key str="警"/>
+   	        <key defined="false"/>
+ 	        <key str="主"/>
+ 	        <key str="よ"/>
+ 	        <key str="や"/>
+   	        <key defined="false"/>
+ 	        <key str="空"/>
+ 	        
+ 	        <key str="返"/>
+ 	        <key str="祭"/>
+ 	        <key str="曇"/>
+ 	        <key defined="false"/>  
+ 	        <key defined="false"/>
+ 	        <key str="必"/>
+ 	        <key str="講"/>
+ 	        <key str="使"/>
+ 	        <key str="左"/>
+ 	        <key str="展"/>
+
+ 	        <key str="“"/>
+ 	    </keys>
+  		<key str="w"/>
+ 		<key str="e"/>
+		<key str="r"/>
+		<key str="t"/>
+		<key str="y"/>
+		<key str="u"/>
+		<key str="i"/>
+		<key str="o"/>
+		<key str="p"/>
+		
+		<key str="a"/>
+		<key str="s"/>
+		<key str="d"/>
+		<key str="f"/>
+		<key str="g"/>
+		<key str="h"/>
+		<key str="j"/>
+		<key str="k"/>
+		<key str="l"/>
+		<key str=";"/>
+		
+		<key str="z"/>
+		<key str="x"/>
+		<key str="c"/>
+		<key str="v"/>
+		<key str="b"/>
+		<key str="n"/>
+		<key str="m"/>
+		<key str=","/>
+		<key str="."/>
+		<key str="/"/>
+		
+		<key modifier="true" type="space" />
+   	</table>
+</resources>
